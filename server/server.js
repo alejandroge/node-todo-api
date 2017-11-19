@@ -9,7 +9,7 @@ var {User} = require('./models/user');
 
 var app = express();
 const port = process.env.PORT | 3000;
-var host = process.env.YOUR_HOST || '0.0.0.0';
+var host = process.env.YOUR_HOST | '0.0.0.0';
 
 app.use(bodyParser.json());
 
